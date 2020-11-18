@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Section
+  - BrokenShip
+  - Spaceship
+  - Asteroid
+  - Meteor
+  - GreenMeteor
+  - OrangeMeteor
+  - PurpleMeteor
+  - RepairTools
+  - Melder
+  - BlueMeteor
+  - YellowMeteor
+  - RedMeteor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayLayer
+  - MaterialLayer
+  - LeftLayer
+  - RightLayer
+  - PostProcess
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

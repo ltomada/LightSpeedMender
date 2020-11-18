@@ -1,0 +1,67 @@
+@startuml
+
+hide empty members
+
+package Items <<Rectangle>>{
+    class Resources<<M, yellow>>{
+    
+    }
+    
+    class RepairingItems <<M, yellow>>{
+        
+    }
+    
+}
+
+package Inside <<Rectangle>>{
+    class ShipStats<<S, red>>{
+    
+    }
+    
+    class BrokenShipInside<<M, yellow>>{
+    
+    }
+    
+    class Riddle <<M, yellow>>{
+    
+    }
+    
+    BrokenShipInside -- Riddle
+    
+}
+
+package Player <<Rectangle>>{
+    class PlayerStats<<S, red>>{
+     
+    }
+    
+    class PlayerController<<M, yellow>>{
+        
+    }
+}
+
+package Outside <<Rectangle>>{
+    
+    class BrokenShip <<M, yellow>>{
+    
+    }
+    
+    class FightShip <<M, yellow>>{
+        
+    }
+    
+    class Meteors <<M, yellow>>{
+    
+    }
+    
+    BrokenShip -- Meteors
+    FightShip -- Meteors 
+    
+}
+
+Outside -- Items
+Player -- Inside
+Player -- Outside
+
+
+@enduml
